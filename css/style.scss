@@ -489,10 +489,10 @@ nav {
 		margin-top: 14px;
 		position: relative;
 		margin-bottom: 24px;
-		background: url("../img/dot.webp");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-repeat: repeat-x;
+		// background: url("../img/dot.webp");
+		// background-position: center;
+		// background-repeat: no-repeat;
+		// background-repeat: repeat-x;
 		.gifimg {
 			position: absolute;
 			right: -15px;
@@ -555,16 +555,16 @@ nav {
 			top: 3px;
 			background-color: #397ae1;
 			border-radius: 42px;
-			.dot {
-				position: absolute;
-				right: -4px;
-				top: -12px;
-				width: 35px;
-				height: 35px;
-				background: url("../img/loading-dot.webp");
-				background-repeat: no-repeat;
-				background-position: center;
-			}
+			// .dot {
+			// 	position: absolute;
+			// 	right: -4px;
+			// 	top: -12px;
+			// 	width: 35px;
+			// 	height: 35px;
+			// 	background: url("../img/loading-dot.webp");
+			// 	background-repeat: no-repeat;
+			// 	background-position: center;
+			// }
 		}
 	}
 
