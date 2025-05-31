@@ -1,0 +1,721 @@
+@media (max-width: 1750px) {
+  .wrapper {
+    max-width: 1280px;
+  }
+  .hero h1 {
+    font-size: 120px;
+  }
+  .hero .buyplace {
+    padding-left: 0;
+  }
+  .hero .gif {
+    position: absolute;
+    right: calc(50% - 729px);
+    bottom: -70px;
+    max-width: 650px;
+  }
+  .hero .dig {
+    right: calc(50% - 180px);
+    bottom: 30px;
+  }
+  .hero .lights {
+    right: calc(50% - 1260px);
+  }
+  nav .row .middle ul {
+    gap: 15px;
+  }
+  nav .wrapper {
+    max-width: 100%;
+  }
+  nav {
+    padding-top: 15px;
+  }
+  .about .box .abouti {
+    top: -130px;
+    left: -30px;
+  }
+  .about {
+    overflow: hidden;
+  }
+  .about .about-img {
+    right: calc(50% - 750px);
+    bottom: 50px;
+    max-width: 680px;
+  }
+  .audit h2,
+  .sub-tit {
+    font-size: 70px;
+  }
+  .tokenomics .right .box {
+    max-width: 700px;
+  }
+  .tokenomics .gif {
+    left: calc(50% - 650px);
+    bottom: 261px;
+    max-width: 610px;
+  }
+  .howto .rm-1 {
+    right: calc(50% - 770px);
+    top: 171px;
+    max-width: 610px;
+  }
+  .howto {
+    min-height: unset;
+    padding-bottom: 150px;
+  }
+  .howto .gif {
+    left: calc(50% - 725px);
+    bottom: -74px;
+    max-width: 650px;
+  }
+  .roadmap .row .box {
+    max-width: 610px;
+  }
+  .roadmap {
+    min-height: unset;
+    padding-bottom: 150px;
+  }
+  .joinus,
+  .faq,
+  .audit {
+    min-height: unset;
+    padding-bottom: 150px;
+    padding-top: 150px;
+  }
+  .audit p {
+    font-size: 24px;
+    max-width: 700px;
+  }
+  .audit .gif {
+    right: calc(50% - 630px);
+    max-width: 490px;
+  }
+  .faq {
+    padding-bottom: 350px;
+  }
+  .faq .wrapper {
+    z-index: 2;
+    position: relative;
+  }
+  .faq .faq-gif-b {
+    display: none;
+  }
+  .faq .gif {
+    top: unset;
+    bottom: 0;
+  }
+  .joinus .box p {
+    font-size: 22px;
+    max-width: 500px;
+  }
+  .joinus .box .joini {
+    left: calc(50% - 0px);
+    top: 100px;
+    max-width: 410px;
+  }
+  .joinus {
+    padding-bottom: 250px;
+  }
+  footer .socm {
+    display: none;
+  }
+  footer .row {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  footer .logof {
+    max-width: 220px;
+  }
+}
+@media (max-width: 1500px) {
+  nav .row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  nav .row .logo {
+    max-width: 220px;
+  }
+}
+@media (max-width: 1500px) {
+  footer .row .middle ul,
+  nav .row .middle ul {
+    gap: 10px;
+  }
+  footer .row .middle ul li a,
+  nav .row .middle ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1300px) {
+  .wrapper {
+    max-width: 980px;
+  }
+  nav .onlymobile {
+    display: block;
+  }
+  nav .middle {
+    position: relative;
+    left: unset;
+    right: unset;
+  }
+  nav .left {
+    position: relative;
+    z-index: 99999999;
+  }
+  nav .middle {
+    position: fixed;
+    flex-direction: column;
+    top: 0px;
+    left: 0;
+    right: 0;
+    gap: 24px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-height: calc(100vh - 91px);
+    overflow: auto;
+    justify-content: start;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.5s;
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0px 5px 0px 0px #000;
+    -webkit-backdrop-filter: blur(23.8500003815px);
+            backdrop-filter: blur(23.8500003815px);
+    max-width: calc(100% - 30px);
+    margin: auto;
+  }
+  nav .middle .mobileview {
+    display: flex;
+  }
+  nav .middle ul {
+    flex-direction: column;
+  }
+  .mobile-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 3px;
+  }
+  nav {
+    min-height: 82px;
+  }
+  nav .right .btn-nav {
+    display: none;
+  }
+  nav .lines {
+    display: flex !important;
+    flex-direction: column;
+    gap: 3px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 6.234px;
+    border: 1.781px solid #000;
+    background: #ffd633;
+    box-shadow: 2.672px 2.672px 0px 0px rgba(0, 0, 0, 0.1), 2.672px 2.672px 0px 1.781px rgba(255, 255, 255, 0.28) inset;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+  }
+  nav .lines .line {
+    width: 18px;
+    height: 2px;
+    background-color: #181529;
+    transition: all ease 0.5s;
+  }
+  .navbar.active {
+    position: fixed;
+  }
+  .navbar.active .lines .line:nth-child(1) {
+    transform: rotate(50deg);
+  }
+  .navbar.active .lines .line:nth-child(2) {
+    transform: rotate(-50deg);
+    margin-top: -5px;
+  }
+  .navbar.active .lines .line:nth-child(3) {
+    transform: rotate(50deg);
+    margin-top: -7px;
+    opacity: 0;
+  }
+  .navbar.active .middle {
+    opacity: 1;
+    visibility: visible;
+    top: 117px;
+    z-index: 9999;
+  }
+  nav .row .middle ul li a {
+    font-size: 24px;
+  }
+  nav .row .logo {
+    max-width: unset;
+  }
+  .joinus {
+    padding-bottom: 30px;
+  }
+  footer {
+    position: relative;
+    bottom: unset;
+    margin-top: 100px;
+  }
+  footer .row {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hero {
+    padding-top: 150px;
+    min-height: unset;
+    padding-bottom: 100px;
+  }
+  .hero h1 {
+    font-size: 100px;
+  }
+  .hero .buyplace {
+    margin-top: 50px;
+  }
+  .hero .dig {
+    right: calc(50% - 180px);
+    bottom: -30px;
+    max-width: 180px;
+  }
+  .hero .gif {
+    position: absolute;
+    right: calc(50% - 579px);
+    bottom: -130px;
+    max-width: 550px;
+  }
+  .hero .lights {
+    right: calc(50% - 1230px);
+    bottom: -720px;
+  }
+  .audit h2,
+  .sub-tit {
+    font-size: 60px;
+  }
+  .about .box .abouti {
+    max-width: 180px;
+  }
+  .about .box .in {
+    margin-top: 30px;
+    padding: 50px 20px;
+    min-height: unset;
+  }
+  .about .about-img {
+    right: calc(50% - 450px);
+    bottom: 20px;
+    max-width: 410px;
+  }
+  .about .box .in p,
+  .about .box .in p span {
+    font-size: 24px;
+  }
+  .roadmap,
+  .howto,
+  .about {
+    min-height: unset;
+    padding-bottom: 150px;
+    padding-bottom: 150px;
+  }
+  .tokenomics .right .box {
+    max-width: 100%;
+  }
+  .tokenomics {
+    padding-bottom: 400px;
+    min-height: unset;
+  }
+  .tokenomics .gif {
+    bottom: 20px;
+    max-width: 350px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(-1);
+  }
+  .howto .bs .row {
+    padding: 0;
+    justify-content: start;
+  }
+  .howto .bs .row2 {
+    justify-content: center;
+  }
+  .howto .bs .row3 {
+    justify-content: end;
+  }
+  .howto .rm-1 {
+    right: calc(50% - 340px);
+    top: 201px;
+    max-width: 360px;
+  }
+  .howto .gif {
+    left: calc(50% - 565px);
+    bottom: -74px;
+    max-width: 560px;
+  }
+  .roadmap h2 {
+    max-width: unset;
+    margin-bottom: 50px;
+  }
+  .roadmap .row .box ul li {
+    font-size: 16px;
+  }
+  .roadmap .row .box {
+    padding: 25px;
+    min-height: unset;
+    max-width: 450px;
+  }
+  .roadmap .gif {
+    right: calc(50% - 490px);
+    top: 131px;
+    max-width: 300px;
+  }
+  .tokenomics .lights {
+    right: calc(50% - 920px);
+    bottom: -100px;
+  }
+  .audit p {
+    max-width: 600px;
+  }
+  .audit .gif {
+    right: calc(50% - 490px);
+    max-width: 410px;
+  }
+  .joinus .box p,
+  .joinus .box h2 {
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .joinus .box {
+    padding: 40px;
+  }
+  .joinus .box .gif {
+    max-width: 360px;
+  }
+  .joinus .box .joini {
+    left: calc(50% - 170px);
+    top: unset;
+    max-width: 350px;
+    bottom: 20px;
+  }
+  nav .socm {
+    display: none;
+  }
+  nav .row .middle ul {
+    gap: 30px;
+  }
+  nav .onlymobile .socm {
+    display: flex;
+  }
+}
+@media (max-width: 1000px) {
+  .wrapper {
+    max-width: 700px;
+  }
+  .hero .connect-wallet {
+    position: relative;
+  }
+  .hero .connect-wallet .btns-cw-left {
+    flex-direction: row;
+    top: -75px;
+    max-width: 508px;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  .hero .connect-wallet .btns-cw-left a {
+    width: calc(50% - 10px);
+  }
+  .hero h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  .hero .buyplace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+  }
+  .hero .dig {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 350px;
+  }
+  .hero .gif {
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%);
+    max-width: 300px;
+    bottom: -60px;
+  }
+  .hero .lights {
+    right: calc(50% - 920px);
+  }
+  .roadmap,
+  .howto,
+  .about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .about .box .abouti {
+    max-width: 110px;
+    top: -80px;
+    left: 10px;
+  }
+  .audit h2,
+  .sub-tit {
+    font-size: 40px;
+  }
+  .about .box .in {
+    padding: 20px;
+    padding-bottom: 200px;
+  }
+  .about .box .in p,
+  .about .box .in p span {
+    font-size: 20px;
+    text-align: center;
+  }
+  .btns {
+    align-items: center;
+    justify-content: center;
+  }
+  .about .about-img {
+    right: calc(50% - 150px);
+    bottom: 10px;
+    max-width: 300px;
+  }
+  .tokenomics .right .lists .l {
+    text-align: left;
+  }
+  .tokenomics .right .box h3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .howto .sub-tit {
+    text-align: center;
+  }
+  .howto .bs .row {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .howto .bs {
+    margin-top: 290px;
+  }
+  .howto .rm-1 {
+    right: calc(50% - 117px);
+    top: 121px;
+    max-width: 260px;
+  }
+  .howto {
+    padding-bottom: 300px;
+  }
+  .howto .gif {
+    left: 50%;
+    bottom: -74px;
+    max-width: 370px;
+    transform: translateX(-50%);
+  }
+  .roadmap h2 {
+    text-align: center;
+    margin-bottom: 250px;
+  }
+  .roadmap .row {
+    margin-bottom: 15px;
+  }
+  .roadmap .row .box {
+    width: 100%;
+    max-width: 100%;
+  }
+  .roadmap .gif {
+    right: calc(50% - 120px);
+    top: 131px;
+    max-width: 230px;
+  }
+  .joinus,
+  .faq,
+  .audit {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .audit h2 {
+    text-align: center;
+  }
+  .audit p {
+    max-width: 100%;
+    text-align: center;
+  }
+  .audit {
+    padding-bottom: 300px;
+  }
+  .audit .gif {
+    right: calc(50% - 130px);
+    max-width: 280px;
+  }
+  .faq-card .question {
+    font-size: 20px;
+  }
+  .faq .row .box h4 {
+    font-size: 20px;
+  }
+  .faq {
+    padding-bottom: 300px;
+  }
+  .faq .gif {
+    max-width: 330px;
+  }
+  .joinus .box {
+    padding-bottom: 300px;
+  }
+  .joinus .box .gif {
+    max-width: 270px;
+  }
+  .joinus .box .joini {
+    left: calc(50% - 250px);
+    max-width: 260px;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .joinus .gif3 {
+    max-width: 160px;
+  }
+}
+@media (max-width: 650px) {
+  footer .row .middle ul {
+    flex-direction: column;
+  }
+  .joinus .box p,
+  .joinus .box h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .hero .connect-wallet {
+    margin: 0;
+    padding: 16px;
+    min-height: unset;
+  }
+  .hero .connect-wallet h3 {
+    font-size: 24px;
+    margin-top: 25px;
+  }
+  .hero .connect-wallet .time {
+    margin-top: 20px;
+  }
+  .hero .connect-wallet .loading-line {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .hero .connect-wallet .input {
+    margin-top: 15px;
+  }
+  .hero .connect-wallet .ch-line {
+    margin-top: 15px;
+  }
+  .hero .connect-wallet .btns-cw a {
+    width: calc(50% - 8px);
+  }
+  .tokenomics .right .lists {
+    flex-direction: column;
+  }
+  .tokenomics .right .lists .l {
+    width: 100%;
+  }
+  .howto .rm-1 {
+    top: 161px;
+  }
+  .roadmap .gif {
+    top: 171px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  nav .row .logo {
+    max-width: 200px;
+  }
+  .tokenomics .right .box .tkimg {
+    margin: auto;
+  }
+  .tokenomics .right .lists {
+    margin-top: auto;
+  }
+}
+@media (max-width: 500px) {
+  .hero .connect-wallet .row-inputs {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero .connect-wallet .row-inputs .input {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0px;
+  }
+  .audit h2,
+  .sub-tit {
+    font-size: 32px;
+  }
+  .audit p,
+  .joinus .box p {
+    font-size: 18px;
+  }
+  .btns {
+    gap: 15px 10px;
+    flex-wrap: wrap;
+  }
+  .btns a {
+    order: 2;
+  }
+  .btns .btn-t1 {
+    order: 1;
+    width: 100%;
+  }
+  .btns .btn-t2 {
+    width: 100%;
+  }
+  .faq .faq-box {
+    margin-top: 30px;
+  }
+  .joinus .box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  nav .logophone {
+    display: block;
+  }
+  nav .logodesktop {
+    display: none;
+  }
+  .hero .connect-wallet .btns-cw-left {
+    gap: 5px;
+  }
+}
+@media (max-width: 430px) {
+  .hero .connect-wallet .time .box {
+    width: calc(25% - 3px);
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 370px) {
+  .hero .connect-wallet .input .p-place {
+    font-size: 12px;
+  }
+  .hero .connect-wallet .lastp .l a {
+    font-size: 12px;
+  }
+  .hero .connect-wallet .lastp .r a {
+    font-size: 11px;
+  }
+  .hero .connect-wallet .s-boxes .box h3 {
+    font-size: 14px;
+  }
+  .about .box .in {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
