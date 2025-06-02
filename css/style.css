@@ -463,6 +463,10 @@ nav .right {
   margin-top: 14px;
   position: relative;
   margin-bottom: 24px;
+  background: url("../img/dot.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 .hero .connect-wallet .loading-line .gifimg {
   position: absolute;
@@ -520,6 +524,18 @@ nav .right {
   top: 3px;
   background-color: #397ae1;
   border-radius: 42px;
+}
+.hero .connect-wallet .loading-line .inside .dot {
+  position: absolute;
+  right: -4px;
+  top: -6px;
+  width: 23px;
+  height: 23px;
+  background-color: #005fbf;
+  border-radius: 100%;
+  box-shadow: 0px 0px 6px 5px rgb(57, 122, 225);
+  -webkit-box-shadow: 0px 0px 6px 5px rgb(57, 122, 225);
+  -moz-box-shadow: 0px 0px 6px 5px rgb(57, 122, 225);
 }
 .hero .connect-wallet .btns-cw {
   display: flex;
