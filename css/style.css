@@ -1239,6 +1239,9 @@ nav .right {
   letter-spacing: 0.36px;
   max-width: 270px;
 }
+.howto .bs .row .in p a {
+  color: #005fbf;
+}
 .howto .bs .row2 {
   padding-left: 280px;
 }
